@@ -1,0 +1,158 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head{
+  margin-top: 0px;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .one{
+  margin: -9px -2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  padding: 18px 10px;
+}
+
+.head input{
+  height: 54px;
+  width: 639px;
+  border-radius: 50px;
+  padding: 10px 8px 8px 40px;
+  align-items: center;
+ background-image: url(images/head/search.png);
+ background-repeat: no-repeat;
+ background-position: 10px center;
+ 
+}
+.head ::placeholder{
+  padding: 5px;
+}
+.head ul{
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+.head .two{
+  margin: -9px -2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  padding: 0px 10px;
+}
+
+.two ul{
+  display: inline-block;
+}
+.two a{
+  color: black;
+}
+
+ul:hover {
+  color: rgba(50, 143, 200, 0.902);
+  cursor: pointer;
+  transform: scale(1.2);
+  text-decoration: underline;
+  text-decoration-color: rgb(35, 106, 151);
+}
+a:hover {
+  color: rgba(50, 143, 200, 0.902);
+  cursor: pointer;
+  transform: scale(1.2);
+  text-decoration: underline;
+  text-decoration-color: rgb(35, 106, 151);
+}
+.horizantal1{
+  width: 100%;
+  height: 0.5px;
+  border: 0 none;
+  background-color: rgba(57, 54, 54, 0.566);
+  margin-top: 5px;
+}
+
+.nav{
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 15px; 
+}
+.horizantal2{
+  width: 100%;
+  height: 0.5px;
+  border: 0 none;
+  background-color: rgba(57, 54, 54, 0.566);
+  margin-top: 12px;
+}
+.down{
+  padding: 5px 5px;
+  width: 100%;
+}
+.carousel {
+  background: #ffffff;
+  padding: 0% 150px;
+  margin-top: -4.5px;
+  border-radius: -2px;
+  
+}
+
+.carousel-cell {
+  padding: 0% 150px;
+  width: 100px;
+  height: 400px;
+  border-radius: -20px;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color:transparent;
+}
+.text h1{
+  position: relative;
+  display: inline-block;
+  top: 5px;
+}
+
+.img1{
+  background-image: url(images/corosal/corosal\ 1.jpg);
+  width: 100%;
+  display: block;
+  max-width: 100%;
+}
+.text1{
+  padding: 26px 20px;
+  border: 0.5px solid ;
+  border-color: rgba(208, 201, 201, 0.453);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 65px;
+  left: 80px;
+}
+.text1 h1{
+  padding: 11px 0px;
+}
+.img2{
+  background-image: url(images/corosal/corosal\ 2.jpg);
+  width: 100%;
+  display: block;
+  max-width: 100%;
+}
+.img3{
+  background-image: url(images/corosal/corosal\ e3.jpg);
+  width: 100%;
+  
+  max-width: 100%;
+}
